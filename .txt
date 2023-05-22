@@ -1,0 +1,12 @@
+            <li class="cartao-pokemon">
+                <div class="informacoes">
+                    <span></span>
+                    <span></span>
+                </div>
+                <img src="" alt="" class="gif-pokemon">
+                <ul class="tipos">
+                    <li class="tipo "> </li>
+                    <li class="tipo "> </li>
+                </ul>
+                <p class="descricao"></p>
+            </li>
