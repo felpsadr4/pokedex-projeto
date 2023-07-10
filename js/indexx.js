@@ -28,7 +28,8 @@ const body = document.querySelector('body');
 const imgBotaoTrocaTema = document.querySelector('.botao-sol-lua')
 
 //- passo 3 - dar um jeito de identificar o clique do usuário no botão de troca de tema
-botaoAlterarTema.addEventListener('click', () => {
+botaoAlterarTema.addEventListener('click', (e) => { e.preventDefault();
+
 
     //- passo 6 - Verificar se o body já tem a classe modo-escuro
     const modoEscuroAtivo = body.classList.contains('modo-escuro');
